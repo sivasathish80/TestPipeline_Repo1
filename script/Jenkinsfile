@@ -8,15 +8,13 @@ pipeline {
 	stages {
 		stage('startup: get variables') {
 			steps{
-
-				
+				print "AAAAAAAAAA"
 			}		
 		}
 		
 		stage('startup: set variables') {
 			steps{
-
-				
+				print "BBBBBBBBBBBB"
 			}		
 		}		
 	}
