@@ -1,0 +1,18 @@
+pipeline {
+	environment {
+		SAG_HOME="C:\SoftwareAG912"
+	}
+	
+	agent any
+	
+	stages {
+		stage('startup: set variables'){
+			steps{
+				pwd
+				
+			}		
+		}
+	}
+
+
+}
