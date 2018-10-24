@@ -6,11 +6,24 @@ pipeline {
 	agent any
 	
 	stages {
-		stage('startup: set variables'){
+		stage('startup: get variables') {
 			steps{
-				sh "pwd"
+
 				
 			}		
+		}
+		
+		stage('startup: set variables') {
+			steps{
+
+				
+			}		
+		}		
+	}
+	
+	post {
+		always {
+			cleanWs()
 		}
 	}
 
