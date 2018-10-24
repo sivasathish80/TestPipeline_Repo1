@@ -1,6 +1,6 @@
 pipeline {
 	environment {
-		SAG_HOME="C:\SoftwareAG912"
+		SAG_HOME="C:/SoftwareAG912"
 	}
 	
 	agent any
