@@ -8,7 +8,7 @@ pipeline {
 	stages {
 		stage('startup: set variables'){
 			steps{
-				pwd
+				sh "pwd"
 				
 			}		
 		}
